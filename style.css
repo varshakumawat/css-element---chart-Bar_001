@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+}
+
+.leftside{
+    width: 100px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.amount{
+    list-style: none;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    margin-left: 12px;
+    text-align: end;
+    line-height: 95px;
+}
+
+.rightside{
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.chartline{
+    width: 700px;
+    height: 530px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+.Year{
+    width: 700px;
+    height: 70px;
+    position: absolute;
+    top: 530px;
+    left: 0px;
+    margin-top: 10px;
+}
+
+.yearlist{
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    gap: 65px;
+    font-size: 22px;
+}
+
+
+.charta{
+    position: absolute;
+    top: 429px;
+    left: 50px;
+    width: 40px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+
+}
+
+.charta h3{
+    writing-mode: vertical-rl;
+    transform: rotatez(180deg);
+    z-index: 1;
+    padding: 5px;
+}
+
+
+.chartabar{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    z-index: 0;
+    transition: 1s; 
+}
+
+.container:hover .chartabar{
+    top: 0;
+}
+
+.chartb{
+    position: absolute;
+    top: 279px;
+    left: 160px;
+    width: 40px;
+    height: 250px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.chartb h3{
+    writing-mode: vertical-rl;
+    transform: rotatez(180deg);
+    z-index: 1;
+    padding: 5px;
+}
+
+.chartbbar{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    transition: 1s; 
+}
+
+.container:hover .chartbbar{
+    top: 0;
+}
+
+.chartc{
+    position: absolute;
+    top: 129px;
+    left: 270px;
+    width: 40px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.chartc h3{
+    writing-mode: vertical-rl;
+    transform: rotatez(180deg);
+    z-index: 1;
+    padding: 5px;
+}
+
+.chartcbar{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    transition: 1s; 
+}
+
+.container:hover .chartcbar{
+    top: 0;
+}
+
+.chartd{
+    position: absolute;
+    top: 129px;
+    left: 380px;
+    width: 40px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.chartd h3{
+    writing-mode: vertical-rl;
+    transform: rotatez(180deg);
+    z-index: 1;
+    padding: 5px;
+}
+
+.chartdbar{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+    transition: 1s; 
+}
+
+.container:hover .chartdbar{
+    top: 0;
+}
+
+
+.charte{
+    position: absolute;
+    top: 159px;
+    left: 490px;
+    width: 40px;
+    height: 370px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.charte h3{
+    writing-mode: vertical-rl;
+    transform: rotatez(180deg);
+    z-index: 1;
+    padding: 5px;
+}
+
+.chartebar{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    transition: 1s; 
+}
+
+.container:hover .chartebar{
+    top: 0;
+}
+
+.chartf{
+    position: absolute;
+    top: 29px;
+    left: 600px;
+    width: 40px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.chartf h3{
+    writing-mode: vertical-rl;
+    transform: rotatez(180deg);
+    z-index: 1;
+    padding: 5px;
+}
+
+.chartfbar{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+    transition: 1s; 
+}
+
+.container:hover .chartfbar{
+    top: 0;
+}
